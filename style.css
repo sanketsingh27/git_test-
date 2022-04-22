@@ -1,0 +1,74 @@
+#container {
+  height: 80vh;
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+#login_form {
+  font-weight: 600;
+  padding: 12px;
+  display: grid;
+  align-content: center;
+  width: 400px;
+  height: 60vh;
+  margin-top: 20px;
+}
+
+body {
+  background-image: url("../images/bg-intro-desktop.png");
+  background-color: rgb(213, 103, 123);
+  font-family: Arial;
+  color: rgb(254, 242, 242);
+}
+input[type="text"] {
+  padding: 8px 0px;
+  margin: 2px;
+  display: inline-block;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  text-indent: 10px;
+}
+
+#submit-btn {
+  background-color: #579c83;
+  color: white;
+  padding: 8px 0px;
+  margin: 2px;
+  border-radius: 5px;
+  border: 2px solid white;
+  display: block;
+  cursor: pointer;
+}
+.left {
+  font-weight: bold;
+  margin-right: 60px;
+}
+
+.right {
+  height: 50vh;
+  margin-top: auto;
+  padding: 20px;
+  display: grid;
+  align-content: center;
+  border: white 2px solid;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+h1 {
+  padding: 1px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+span {
+  color: black;
+  opacity: 0.3;
+  font-size: 12px;
+}
