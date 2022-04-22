@@ -32,6 +32,9 @@ let nameArray = [
   "abc",
   "a",
   "twinkle",
+  "sanket",
+  "madhave",
+  "madhuri",
 ];
 
 for (let i = 0; i <= 9; i++) {
